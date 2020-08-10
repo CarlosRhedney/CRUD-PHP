@@ -7,19 +7,19 @@
             <div class="col-xs-3">
               <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" class="form-control" name="usuario" placeholder="Digite seu nome" required>
+                <input type="text" id="nome" class="form-control" name="usuario" placeholder="Digite o seu nome" required>
               </div>
             </div>
             <div class="col-xs-3">
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" class="form-control" name="email" placeholder="Digite seu email" required>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Digite o seu email" required>
               </div>
             </div>
             <div class="col-xs-3">
               <div class="form-group">
                 <label for="fone">Fone:</label>
-                <input type="text" id="fone" class="form-control" name="fone" placeholder="Digite seu telefone" required>
+                <input type="text" id="fone" class="form-control" name="fone" placeholder="Digite o seu telefone" required>
               </div>
             </div>
             <div class="col-xs-3">
@@ -29,12 +29,12 @@
             </div>
           </form>
           <?php
-          if($suc_cad == 1){
+          if($sucCad == 1){
             echo "<font style='color:red'>Usuário cadastrado com sucesso!</font>";
-          }else if($erro_cad == 1){
-            echo "<font style='color:red'>Erro ao tentar cadastrar usuário!</font>";
+          }else if($erroCad == 1){
+            echo "<font style='color:red'>Erro ao tentar cadastrar o usuário!</font>";
           }
-          ?>      
+          ?>
         </div>
       </div>
     </div>
