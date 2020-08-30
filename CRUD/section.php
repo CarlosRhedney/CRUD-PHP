@@ -19,7 +19,7 @@
             <div class="col-xs-3">
               <div class="form-group">
                 <label for="fone">Fone:</label>
-                <input type="text" id="fone" class="form-control" name="fone" placeholder="Digite o seu telefone" required>
+                <input type="text" id="fone" class="form-control" name="fone" placeholder="Digite o seu telefone" required maxlength="10" >
               </div>
             </div>
             <div class="col-xs-3">
